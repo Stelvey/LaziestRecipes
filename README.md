@@ -1,2 +1,2 @@
 # protoRecipes
-A simple recipes website
+A **WIP* simple recipes website made with HTML/CSS
