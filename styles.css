@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Righteous&display=swap');
+
+body {
+    color: white;
+    background-color: #252627;
+    padding-inline: 25%;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: large;
+}
+
+h1.title {
+    justify-content: center;
+}
+
+h1 {
+    background-color: #9A94BC;
+    margin: 0;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: 'Righteous', cursive;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    margin-left: 10px;
+    font-family: 'Righteous', cursive;
+}
+
+span.title {
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+span {
+    color: #FFFFB3;
+}
+
+a.animated {
+    transition: font-size 0.5s ease;
+}
+
+a.switch {
+    background-color: initial;
+    box-shadow: none;
+    width: 50px;
+    height: 20px;
+    line-height: 0px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    background-color: #A07178;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 1px rgb(20, 20, 20);
+    text-align: center;
+    line-height: 57px;
+    text-decoration: none;
+}
+
+a:hover.animated {
+    font-size: larger;
+}
+
+p {
+    margin-left: 25px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+a {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1200px), (max-height: 700px){ 
+    body {
+        padding-inline: 5%;
+    }
+
+    a.switch {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 300px){ 
+    body {
+        padding-inline: 0%;
+    }
+
+    a.switch {
+        display: none;
+    }
+}

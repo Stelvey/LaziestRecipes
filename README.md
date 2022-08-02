@@ -1,2 +1,2 @@
-# protoRecipes
-A **WIP* simple recipes website made with HTML/CSS
+# LaziestRecipes
+A very simple recipes website design made with plain HTML/CSS and [hosted on GithHub Pages](https://stelvey.github.io/LaziestRecipes)
